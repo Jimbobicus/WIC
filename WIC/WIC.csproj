@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net40</TargetFrameworks>
+    <TargetFrameworks>net5.0</TargetFrameworks>
     <Authors>stakx</Authors>
     <Company></Company>
     <Copyright>Copyright © stakx 2016-2017</Copyright>

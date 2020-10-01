@@ -38,6 +38,7 @@
         public const string IWICMetadataReader = "9204fe99-d8fc-4fd5-a001-9536b067a899";
         public const string IWICMetadataWriter = "f7836e16-3be0-470b-86bb-160d0aecd7de";
         public const string IWICPalette = "00000040-a8f2-4877-ba0a-fd2b6645fb94";
+        public const string IWICPixelFormatInfo = "e8eda601-3d48-431a-ab44-69059be88bbe";        
         public const string IWICStream = "135ff860-22b7-4ddf-b0f6-218f4f299a43";
     }
 }

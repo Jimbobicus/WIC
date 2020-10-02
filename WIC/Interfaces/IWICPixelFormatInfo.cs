@@ -40,6 +40,10 @@ namespace WIC
 
         #endregion
 
+        Guid GetFormatGUID();
+
+        IWICColorContext GetColorContext();
+
         int GetBitsPerPixel();
 
         int GetChannelCount();
@@ -49,9 +53,5 @@ namespace WIC
             [In] int cbMaskBuffer,
             [In, Out, MarshalAs(UnmanagedType.LPArray, ArraySubType=UnmanagedType.U1, SizeParamIndex=1)] byte[] pbMaskBuffer,
             [Out] out int pcbActual);
-
-        IWICColorContext GetColorContext();
-
-        Guid GetFormatGUID();
     }
 }
